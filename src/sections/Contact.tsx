@@ -16,7 +16,7 @@ export const ContactSection = () => {
             <div className="">
               <h2 className="font-serif text-2xl md:text-3xl">Hiring?</h2>
               <p className="text-sm md:text-base mt-2">
-                I am Shivananda, a Software Engineer with ~4 years of experience
+                I am Shivananda, a Software Engineer with &gt;4.5 years of experience
                 in the industry. I am passionate about building innovative
                 solutions that solve real-world problems. I am excited to bring
                 my skills and experience to your team.
@@ -24,7 +24,7 @@ export const ContactSection = () => {
             </div>
             <div>
               <a
-                href="https://drive.google.com/file/d/1Yc4FYslcI0skP1y_hhWxsAuPtDin9Js2/view?usp=sharing"
+                href="https://drive.google.com/file/d/1uCQWwG8iOmJCbJ3ZQYlPHG0ZJhOdKpT_/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

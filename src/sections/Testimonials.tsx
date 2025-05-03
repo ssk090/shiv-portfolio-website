@@ -1,11 +1,5 @@
-import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
-import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
-import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
-import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
-import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
-import Image from "next/image";
 import { Card } from "@/components/Card";
 import { Fragment } from "react";
 
@@ -18,10 +12,30 @@ const testimonials = [
     link: "https://shivflix.netlify.app/",
   },
   {
+    name: "Portfolio Website",
+    position:
+      "React, Tailwind CSS, TypeScript, Vercel",
+    text: "Portfolio website showcasing my projects and skills. Built using React, Tailwind CSS, and TypeScript for a modern and responsive design",
+    link: "https://www.shivanandasai.xyz/",
+  },
+  {
+    name: "Interview AI",
+    position:
+      "Next.js, Typescript, Firebase, shadcn/ui, Tailwind CSS, Google Gemini, Vapi AI, React Hook Form",
+    text: "AI-powered interview preparation tool. It generates interview questions based on the job title and provides AI-generated answers. Built using Next.js, Firebase, and shadcn/ui for a modern and responsive design",
+    link: "https://interview-prep-ai-beta.vercel.app/",
+  },
+  {
     name: "Image to Text",
     position: "NextJs, Cloudflare, Hono",
     text: "Image to text generation. Upload your image and it will generate instagram post captions related to the picture you uploaded. Utilized Cloudflare and Hono for APIs",
     link: "https://c053d302.frontend-nextjs-dto.pages.dev/",
+  },
+  {
+    name: "Auto Commit AI",
+    position: "Javascript, Ollama",
+    text: "AI-powered commit message generator. It generates commit messages based on the code you wrote. Built using Javascript and Ollama for a modern and responsive design",
+    link: "https://github.com/ssk090/ai-commit-gen",
   },
   {
     name: "Web3 Wallet",
@@ -29,30 +43,6 @@ const testimonials = [
     text: "Built a web3 wallet for users. It also generates mnemonics for users to use for their wallet. Utilized NextJs for the frontend",
     link: "https://mnemonic-generator-murex.vercel.app/",
   },
-  // {
-  //   name: "Olivia Green",
-  //   position: "Head of Design @ GreenLeaf",
-  //   text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
-  //   avatar: memojiAvatar2,
-  // },
-  // {
-  //   name: "Daniel White",
-  //   position: "CEO @ InnovateCo",
-  //   text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
-  //   avatar: memojiAvatar3,
-  // },
-  // {
-  //   name: "Emily Carter",
-  //   position: "Product Manager @ GlobalTech",
-  //   text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
-  //   avatar: memojiAvatar4,
-  // },
-  // {
-  //   name: "Michael Brown",
-  //   position: "Director of IT @ MegaCorp",
-  //   text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-  //   avatar: memojiAvatar5,
-  // },
 ];
 
 export const TestimonialsSection = () => {

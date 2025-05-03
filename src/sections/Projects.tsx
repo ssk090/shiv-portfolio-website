@@ -10,15 +10,27 @@ const portfolioProjects = [
     results: [
       {
         title:
-          "Enhanced a client’s dashboard with React JS, improving usability by 60%",
+          "Built scalable web apps using React, Angular, and TypeScript",
       },
       {
         title:
-          "Developed Angular code, integrated APIs, and delivered successful projects",
+          "Improved app performance and usability across multiple projects.",
       },
       {
         title:
-          "Led a 10-member team on a full-stack project using Angular and Spring Boot",
+          "Delivered features, fixed bugs, and integrated APIs in agile teams.",
+      },
+      {
+        title:
+          "Boosted user experience by up to 60%.",
+      },
+      {
+        title:
+          "Increased UI reusability and unit test coverage from 65% to 85%.",
+      },
+      {
+        title:
+          "Supported deployments using Spring Boot, Git, and MySQL.",
       },
     ],
     link: "https://drive.google.com/file/d/1Qd1jUONkFZe2ePuAk14_aJY8TQzpd7s0/view?usp=sharing",
@@ -30,15 +42,27 @@ const portfolioProjects = [
     results: [
       {
         title:
-          "Fixed bugs and implemented new features using React and Typescript",
+          "Developed and debugged web apps using React, TypeScript, and related libraries.",
       },
       {
         title:
-          "Learnt React Native and implemented a cross-platform mobile app",
+          "Improved app performance, functionality, and user experience.",
       },
       {
         title:
-          "Collaborated with cross-functional teams to deliver high-quality code",
+          "Self-learned React Native and built a cross-platform mobile app in 2 months.",
+      },
+      {
+        title:
+          "Received client appreciation for timely mobile app delivery.",
+      },
+      {
+        title:
+          "Collaborated with designers, backend developers, and QA teams.",
+      },
+      {
+        title:
+          "Delivered clean, efficient, and reliable code on schedule.",
       },
     ],
   },
@@ -85,24 +109,7 @@ export const ProjectsSection = () => {
                       </li>
                     ))}
                   </ul>
-                  {/* <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 ">
-                      <span>Experience Letter</span>
-                      <ArrowUpRight className="size-5" />
-                    </button>
-                  </a> */}
                 </div>
-                {/* <div className="relative">
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
-                  />
-                </div> */}
               </div>
             </Card>
           ))}
