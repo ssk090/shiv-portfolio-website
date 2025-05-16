@@ -11,9 +11,8 @@ const calistoga = Calistoga({
   variable: "--font-serif",
   weight: ["400"],
 });
-
 export const metadata: Metadata = {
-  title: "Shivananda | Portfolio 2024",
+  title: `Shivananda | Portfolio ${new Date().getFullYear()}`,
   description: "Portfolio Website",
 };
 
