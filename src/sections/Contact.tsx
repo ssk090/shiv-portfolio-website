@@ -24,7 +24,7 @@ export const ContactSection = () => {
             </div>
             <div>
               <a
-                href="https://drive.google.com/file/d/1uCQWwG8iOmJCbJ3ZQYlPHG0ZJhOdKpT_/view?usp=sharing"
+                href="https://drive.google.com/file/d/19e5vfO5PEzcMS8pSYIuiVllS6cWT5_lT/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
