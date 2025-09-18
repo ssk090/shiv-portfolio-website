@@ -13,8 +13,7 @@ const testimonials = [
   },
   {
     name: "Portfolio Website",
-    position:
-      "React, Tailwind CSS, TypeScript, Vercel",
+    position: "React, Tailwind CSS, TypeScript, Vercel",
     text: "Portfolio website showcasing my projects and skills. Built using React, Tailwind CSS, and TypeScript for a modern and responsive design",
     link: "https://www.shivanandasai.xyz/",
   },
@@ -42,6 +41,12 @@ const testimonials = [
     position: "NextJs",
     text: "Built a web3 wallet for users. It also generates mnemonics for users to use for their wallet. Utilized NextJs for the frontend",
     link: "https://mnemonic-generator-murex.vercel.app/",
+  },
+  {
+    name: "Better RAG",
+    position: "NextJs",
+    text: "Built a Retrieval Augmented Generation (RAG) tool that enhances AI responses by integrating relevant documents. Utilized NextJs for the frontend",
+    link: "https://better-rag.vercel.app/",
   },
 ];
 
